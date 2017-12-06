@@ -48,4 +48,8 @@ public class Buying {
 	public void setClickerPrice() {
 		clickerPrice*=1.2323452;
 	}
+	public int getAll$PS() {
+		return getFirstBuy$PS();
+		
+	}
 }

@@ -6,7 +6,7 @@ import javax.swing.JFrame;
 public class Launcher {
 	public static void main(String[] args) {
 		Game theGame = new Game();
-		theGame.setSize(650,500);
+		theGame.setSize(910,645);
 		theGame.setVisible(true);
         theGame.setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE);
         theGame.addComponentListener(new ComponentAdapter() {
